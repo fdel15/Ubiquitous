@@ -1,0 +1,1 @@
+1. A story of a young adult who suffers a tragic injury that paralyzes them. Technologies like [[BrainGate]] are able to transform the results of this kind of injury thanks to the great work by the protagonist scientists in the story.

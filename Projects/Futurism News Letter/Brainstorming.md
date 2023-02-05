@@ -1,0 +1,49 @@
+Broad Categories
+
+-   From the table of contents of _[[Physics of the Future]]_
+    -   Future of the computer
+    -   Future of AI
+    -   Future of Medicine
+    -   Nanotechnology
+    -   Future of Energy
+    -   Future of Space Travel
+    -   Future of Wealth
+    -   Future of Humanity
+    -   A Day in the life of 2100
+-   From _**********************The Singularity is Near**********************_
+    -   Achieving the Computational Capacity of the Human Brain
+    -   Three Dimensional Molecular Computing And Emerging Computational Technologies
+    -   Reverse Engineering the Human Brain
+    -   Quantum Computing
+-   From The Future Is Faster Than You Think
+    -   The Future of Shopping
+    -   The Future of Advertising
+    -   The Future of Entertainment
+    -   The Future of Education
+    -   The Future of Healthcare
+    -   The Future of Longevity
+    -   The Future of Insurance, Finance, and Real Estate
+    -   The Future of Food
+
+Fields to investigate:
+- AI
+- Quantum Technologies
+- Material sciences
+- Robotics
+- Blockchain
+- Longevity
+- Medicine
+	- A cancer diagnosis that today means you only have a limited number of days to live but in the future is a 1-week treatment
+- Broadband network
+	- IoT and 5G
+	- 6G -- 8,000 times faster than 5G
+	- charging infrastructure
+	- democratization of electric cars
+- Carbon Capture
+- Enhanced Farming
+- Cobots
+	- Collaborative Robots
+- Mass customization
+	- Many small local factories
+- Robotic police forces
+- Smart clothing
