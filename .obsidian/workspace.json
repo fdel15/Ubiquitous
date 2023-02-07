@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BrainGate.md",
+                "file": "Books/Physics Of The Future.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c77159f13a4976d0",
+            "id": "3970248260ba315b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portable MRIs.md",
+                "file": "Projects/Daily Notes/2023/2023-02-06.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b99afd26d7931cdb",
+            "id": "abc6f51e1ba7c268",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#neuro_science",
+                "query": "tag:#nobel_laureat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portable MRIs.md",
+                "file": "Projects/Daily Notes/2023/2023-02-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portable MRIs.md",
+                "file": "Projects/Daily Notes/2023/2023-02-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portable MRIs.md"
+                "file": "Projects/Daily Notes/2023/2023-02-06.md"
               }
             }
           }
@@ -170,17 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77159f13a4976d0",
+  "active": "3970248260ba315b",
   "lastOpenFiles": [
-    "Mind Reading.md",
-    "Max Planck Institute for Polymer Research.md",
-    "Portable MRIs.md",
-    "David Baltimore.md",
+    "Noninvasive Surgery.md",
+    "Books/Physics Of The Future.md",
     "Resources/Hashtags.md",
+    "Japanese Robots.md",
+    "David Baltimore.md",
+    "Modular Robots.md",
+    "Portable MRIs.md",
+    "Projects/Daily Notes/2023/2023-02-06.md",
     "BrainGate.md",
-    "Projects/Futurism News Letter/Story Ideas.md",
-    "Projects/Daily Notes/2023/2023-02-04.md",
-    "Projects/Futurism News Letter/Brainstorming.md",
-    "Projects/Futurism News Letter/Fiber Optics.md"
+    "Projects/Daily Notes/2023/2023-02-05.md"
   ]
 }

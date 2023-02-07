@@ -69,3 +69,11 @@ Jules Verne is credited with having predicted the future in his best selling nov
     -   ********************Technology********************:
         -   haptic technology - ability to feel and touch objects in a virtual world
 -   **************************************************Medical Care In The Future************************************************** (pg. 39 - 41)
+
+## Movies Mentioned
+- Forbidden Planet (pg 72)
+- Surrogates (pg 72)
+- Avatar (pg 72)
+
+## Notes
+- Chapter 2 mentions several AI winters and failed predictions on when AI would revolutionize humanity. It may be worth looking back at these examples for specifics to come up with counter examples to why technology will not necessarily succeed.

@@ -1,4 +1,5 @@
-#nobel_laureat
+#daily-note 
+#nobel_laureate
 
 Former president of [[Caltech]]
 
