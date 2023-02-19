@@ -1,1 +1,2 @@
 1. A story of a young adult who suffers a tragic injury that paralyzes them. Technologies like [[BrainGate]] are able to transform the results of this kind of injury thanks to the great work by the protagonist scientists in the story.
+2. Mentioned in [[Physics Of The Future]] pg. 143, in the future shows like CSI may be able to sculpt an entire person's face from just a DNA sample
