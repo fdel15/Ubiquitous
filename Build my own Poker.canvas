@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"82b848e5fbe1d6e0","x":-220,"y":-600,"width":400,"height":180,"type":"text","text":"PROBLEM BREAKDOWN\n\n1. Poker Hand Evaluator\n2. Poker Engine\n3. Poker Bot\n4. AI training"},
+		{"id":"edd7d8de0d73226c","x":-220,"y":-380,"width":400,"height":60,"type":"text","text":"POKER HAND EVALUATOR\n\n1. Card Object\n2. Hand Rank Lookup Table\n3. 5 Card Hand Evaluator\n4. 6 Card Hand Evaluator\n5. 7 Card Hand Evaluator"}
+	],
+	"edges":[
+		{"id":"d196ec72a40bdba3","fromNode":"82b848e5fbe1d6e0","fromSide":"bottom","toNode":"edd7d8de0d73226c","toSide":"top"}
+	]
+}

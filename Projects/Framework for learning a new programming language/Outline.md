@@ -1,0 +1,24 @@
+
+- Introduction
+	- Theory of programming languages
+	- Who this framework is for
+	- How to use this framework
+- Hello World
+	- Set up local environment
+	- Run simple "Hello World" program
+- Learn the syntax
+	- bitwise_addition
+	- reverse_linked_list
+	- climbing_stairs
+	- two_sum
+	- max_depth_of_binary_tree
+	- valid_anagram
+	- maximum_subarray
+	- valid_parentheses
+	- number_of_islands
+- Simple Projects
+- Complex Projects
+- Additional Resources
+	- Top 75 Algorithm problems
+	- List of best documentation for each programming language
+	- Collection of helpful ChatGPT prompts
