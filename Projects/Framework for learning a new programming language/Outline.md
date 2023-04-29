@@ -17,8 +17,96 @@
 	- valid_parentheses
 	- number_of_islands
 - Simple Projects
-- Complex Projects
+	- Input/Output
+		- Goals:
+			- Learn how to retrieve input from a user
+			- Learn how to return output
+			- Learn how to get the current date`
+			- Learn string operations to:
+				- Count the number of characters in a string
+				- Format the date
+		- Step 1:
+			- Prompt for your name and return "Hello, #{name}"
+		- Step 2:
+			- Output: "Hello, #{name}". Your name has {num} characters!
+		- Step 3:
+			- Output: "Hello #{name}! Today is #{date}, and your name has #{num} characters."
+		- Challenge Yourself:
+			- Ask for person's birthday as input and return number of days until their birthday
+			- Rewrite the programming using TDD.
+	- Calculations
+		- Goals:
+			- Learn math operators
+			- Learn how to deal with precision
+		- Step 1
+			- Simple Interest Calculator
+		- Step 2
+			- Convert to compound interest calculator
+	- Make Decisions
+		- Options:
+			- Temperature converter
+				- Program responds differently depending on user choice
+			- BMI calculator
+				- Calculated outcome will be in a range that needs to be returned
+			- Numbers to names for months
+				- Hash data structure or switch statement
+				- Challenge would be to support multiple languages
+			- Troubleshooting car issues
+				- Decision tree problem
+				- Walks through a user flow
+	- Functions
+		- Options:
+			- Months to pay off credit card
+	- Repetition
+		- Options:
+			- Generate a multiplication chart
+			- iteration, graphical display
+	- Data Structures
+		- Sorting data
+		- Filtering data
+	- Working With Files
+		- Read a list of names from a file and return a sorted list
+		- CSV problem where you read a CSV file and display records as a table
+		- Word Finder
+			- Read a file, replace a given word, and write a new file
+		- Word Frequency finder
+			- Maybe...to make it different than Word Finder we should make the input file too large to load into memory at once so it needs to be streamed
+	- External APIs
+		- Chuck Norris quote generator
+			- Make HTTP request, get a json response, parse response, return output
+		- Grabbing the weather
+			- https://openweathermap.org/current
+	- Full Programs
+		- Todo List
+		- URL shortener
+- Chat API recommended list of projects
 - Additional Resources
 	- Top 75 Algorithm problems
-	- List of best documentation for each programming language
+	- [[Language Overview Table]]
+	- Starter kit for a collection of languages
+		- Define the purpose and goals of the language
+			- Before creating a programming language, it is important to have a clear idea of what the language will be used for and what specific features and capabilities it should have.
+		- The language paradigm
+			- [[Paradigms]]
+		- Documentation and community links
+		- Strengths and Weaknesses
+			- [[Ruby Strengths and Weaknessess]]
+		- Syntax and grammar: 
+			- Once the language paradigm has been chosen, the next step is to design the syntax and grammar of the language. This involves defining the rules for how the language will be structured and how programs will be written.
+			-  [[Ruby Syntax and Grammar]]
+		- Datastructures
+		- Implement the language: After the syntax and grammar have been defined, the next step is to implement the language. This involves creating a compiler or interpreter that can translate the language into executable code.
+			- [[Ruby Implementation]]
+		- Libraries
+			- How to install libraries
+				- e.g. how to install a ruby gem
+			- Most popular include at least 1 testing library
+				- Link to library source code (if possible)
+				- Description of the library
+				- Code example using the library
+		- Hello World code example
+			- should include local environment setup such as how to install the runtime
+			- Prompt: How do 
+		- Solutions to algorithm problems
+		- Solutions to some of the projects
 	- Collection of helpful ChatGPT prompts

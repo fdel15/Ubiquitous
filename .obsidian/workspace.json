@@ -4,83 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b3bc8c43d28dd1d2",
+        "id": "9cc688a5118cad6a",
         "type": "tabs",
         "children": [
           {
-            "id": "2ebea35fa2a4d539",
+            "id": "0d65b5994a70b1cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Daily Notes/2023/2023-04-19.md",
+                "file": "Projects/Framework for learning a new programming language/Language Overview Table.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f72398fd6dda630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Task List.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dad1dd195073577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Task List.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea727112e7ec15e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Brain storming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fdec67ea87d17db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Initial Brain Storm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89620e3be4edfc8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Brain storming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aec1ed70d2f2e3a9",
+            "id": "1d7fcb62bb8ffc00",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,31 +32,7 @@
             }
           },
           {
-            "id": "b43c0670f7dfa8c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Brain storming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5092e45150eec40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Framework for learning a new programming language/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afaba6af3759037b",
+            "id": "b2675409b30d605e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,19 +44,19 @@
             }
           },
           {
-            "id": "e97c2ce085afaeb9",
+            "id": "70eb1a85e46c82e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/Initial Brain Storm.md",
+                "file": "Projects/Framework for learning a new programming language/First Draft.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c735741c89979b6e",
@@ -207,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/Paradigms.md",
+                "file": "Projects/Framework for learning a new programming language/First Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/Paradigms.md",
+                "file": "Projects/Framework for learning a new programming language/First Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/Paradigms.md"
+                "file": "Projects/Framework for learning a new programming language/First Draft.md"
               }
             }
           }
@@ -267,35 +182,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afaba6af3759037b",
+  "active": "70eb1a85e46c82e6",
   "lastOpenFiles": [
-    "Projects/Framework for learning a new programming language/Introduction.md",
     "Projects/Framework for learning a new programming language/Paradigms.md",
-    "Projects/Framework for learning a new programming language/Brain storming.md",
+    "Projects/Framework for learning a new programming language/First Draft.md",
     "Projects/Framework for learning a new programming language/Theory of Programming Languages.md",
-    "Projects/Framework for learning a new programming language/Outline.md",
-    "Projects/Framework for learning a new programming language/Chat GPT Prompts.md",
-    "Projects/Framework for learning a new programming language/Existing Products.md",
-    "Projects/Framework for learning a new programming language/Initial Brain Storm.md",
-    "Projects/Daily Notes/2023/2023-04-23.md",
-    "Projects/Framework for learning a new programming language/Programming Projects.md",
     "Projects/Framework for learning a new programming language/Task List.md",
+    "Projects/Framework for learning a new programming language/Programming Projects.md",
+    "Projects/Framework for learning a new programming language/Language Overview Table.md",
+    "Projects/Framework for learning a new programming language/Javascript Syntax and Grammar.md",
+    "Projects/Framework for learning a new programming language/Introduction.md",
+    "Projects/Framework for learning a new programming language/Initial Brain Storm.md",
+    "Projects/Framework for learning a new programming language/Chat GPT recommendations for programs to create.md",
+    "Projects/Framework for learning a new programming language/Chat GPT Prompts.md",
+    "Projects/Framework for learning a new programming language/Brain storming.md",
+    "Projects/Framework for learning a new programming language/Outline.md",
+    "Projects/Daily Notes/2023/2023-04-19.md",
+    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Syntax and Grammar.md",
+    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Strengths and Weaknessess.md",
+    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Installation.md",
+    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Implementation.md",
+    "Projects/Framework for learning a new programming language/Programming Languages/Ruby",
+    "Projects/Framework for learning a new programming language/Programming Languages",
+    "Projects/Framework for learning a new programming language/Existing Products.md",
+    "Projects/Daily Notes/2023/2023-04-23.md",
     "Projects/Framework for learning a new programming language",
     "Projects/Daily Notes/2023/2023-04-09.md",
     "Projects/Daily Notes/2023/2023-03-31.md",
     "Pauli Exclusion Principal.md",
-    "Projects/Daily Notes/2023/2023-04-19.md",
     "Build my own Poker.canvas",
     "Books/Physics Of The Future.md",
     "Meal Planning.md",
-    "Scanning Tunneling Microscope.md",
-    "Projects/Daily Notes/2023/2023-03-05.md",
-    "Projects/Daily Notes/2023/2023-02-04.md",
-    "Human DNA.md",
-    "Projects/Daily Notes/2023/2023-02-20.md",
-    "Resources/Hashtags.md",
-    "Dharmendra Modha.md",
-    "Reverse Engineering the Brain.md",
-    "Projects/Daily Notes/2023/2023-02-19.md"
+    "Scanning Tunneling Microscope.md"
   ]
 }
