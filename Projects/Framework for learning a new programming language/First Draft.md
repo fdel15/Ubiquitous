@@ -1,12 +1,19 @@
 
-# A Framework For Learning Programming Languages
+<h1 style="text-align:center">A Framework For Learning Programming Languages</h1>
+
+
+
+
+
+
+![[code-stock-photo.jpg]]
 
 <div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
--   Introduction
-	- Learning Programming Languages
+-   [[#Introduction]]
+	- [[#Learning Programming Languages]]
 	- Who this framework is for
 	- How to use this framework
 - Theory of programming languages
@@ -90,6 +97,7 @@ The scope of the problems in this book is limited to the programming language it
 {TODO}
 
 <div style="page-break-after: always;"></div>
+
 ## Theory of programming languages
 
 ### Introduction
@@ -107,6 +115,7 @@ In this chapter, we will provide a brief overview of the theory of programming l
 By the end of this chapter, you will have a solid understanding of the theory of programming languages and the principles that underpin them. This knowledge will serve as a foundation for learning new programming languages and becoming a more effective software engineer.
 
 <div style="page-break-after: always;"></div> 
+
 ### A Brief History of Programming Languages
 
 Programming languages have come a long way since the first computer was invented. In the early days, programmers had to write code in machine language, which consisted of strings of binary digits that were interpreted by the computer's hardware. As you can imagine, this was a tedious and error-prone process.
@@ -132,6 +141,7 @@ Each generation of programming languages has built upon previous generations, in
 Understanding the evolution of programming languages can help us appreciate the complexity of modern software development and the contributions of the pioneers who made it all possible.
 
 <div style="page-break-after: always;"></div>
+
 ### The Anatomy of a Programming Language
 
 A programming language is made up of several different components that work together to define its structure and functionality. These components include syntax, semantics, and pragmatics.
@@ -153,6 +163,7 @@ Together, syntax, semantics, and pragmatics form the foundation of a programming
 Programming languages are designed to be expressive and flexible, allowing programmers to create a wide range of programs to meet different needs. The syntax, semantics, and pragmatics of a programming language work together to make this possible, providing a powerful tool for software development. By understanding the anatomy of a programming language, programmers can become more effective at writing code, debugging errors, and creating high-quality software.
 
 <div style="page-break-after: always;"></div>
+
 ### The Purpose of Programming Languages
 
 Programming languages are created for different reasons and serve different purposes. Here are some of the most common reasons for creating programming languages:
@@ -186,6 +197,7 @@ Once a programming language is created, it needs to be maintained and updated ov
 Despite these challenges, programming languages continue to be created and evolve over time. They provide a powerful tool for software development, enabling programmers to solve complex problems and create innovative solutions.
 
 <div style="page-break-after: always;"></div>
+
 ### Types of Programming Languages
 
 Programming languages can be classified into different categories based on their design, syntax, and purpose. Here are some of the most common categories of programming languages:
@@ -211,6 +223,7 @@ Each category of programming languages has its own set of characteristics and ad
 By understanding the different types of programming languages, programmers can choose the right language for the task at hand and develop a broader understanding of the field of software development.
 
 <div style="page-break-after: always;"></div>
+
 ### Paradigms
 
 Programming paradigms are different ways of structuring and executing programs. Each paradigm has its own set of principles and techniques that define how programs are written and organized. There are several programming paradigms, and each has its own strengths and weaknesses.
@@ -256,3 +269,201 @@ Here's a reference table that summarizes some common programming paradigms, a br
 | Event-Driven         | Focuses on reacting to external events, such as user input or network activity. The program waits for events to occur and then responds to them with appropriate actions.                                                                                                                                                                                                        | Scalability, responsiveness, and modularity. Useful for applications that involve user interaction, I/O operations, or network communication.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Can be harder to reason about than other paradigms, and can lead to race conditions and other concurrency issues.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | JavaScript, Python, C#                                                                                                                       |
 | Logic                | Focuses on describing the problem domain as a set of rules or constraints, and using logical inference to find a solution.                                                                                                                                                                                                                                                         | Good for problems that can be described in terms of rules or constraints. Can be used for AI, expert systems, and automated reasoning.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Can be inefficient and computationally expensive, especially for large problems. May require a good understanding of logic and inference mechanisms. | Prolog, Mercury, Datalog | 
 | Concurrent | Focuses on managing multiple threads or processes that run concurrently, often using shared memory or message passing to communicate. | Scalability, responsiveness, and efficiency. Useful for applications that involve parallel processing, I/O operations, or network communication. | Can be harder to reason about than other paradigms, and can lead to race conditions and other concurrency issues. Can also be harder to debug and test. | Go, Erlang, Rust |
+<div style="page-break-after: always;"></div>
+### Language Design and Implementation
+
+Designing and implementing a programming language is a complex process that involves multiple steps and stakeholders. Here are some of the key elements involved in the process:
+
+
+#### Language Designers
+Language designers are responsible for defining the syntax and semantics of a programming language. They need to consider factors such as ease of use, expressiveness, and performance when designing the language. The design process typically involves creating a language specification that describes the language's syntax, semantics, and features.
+
+#### Compilers and Interpreters
+
+Compilers and interpreters are tools used to translate code written in a programming language into machine-readable code. Compilers translate code into machine code before execution, while interpreters translate code into machine code during execution. Both compilers and interpreters play an important role in implementing programming languages.
+
+#### Implementation
+
+Implementing a programming language involves creating a compiler or interpreter for the language. This process involves creating a parser that can recognize the syntax of the language, creating a symbol table to track variables and functions, and generating code that can be executed by a computer.
+
+The process of designing and implementing a programming language comes with several challenges and tradeoffs. Here are some of the most common challenges:
+
+#### Performance
+
+Designing a language that is both expressive and performant is a significant challenge. Language designers need to balance the need for expressive features with the need for performance. For example, allowing arbitrary code execution in a language may make it more expressive, but it can also make the language less secure and less performant.
+
+#### Ease of Use
+
+Designing a language that is easy to use and learn is important for attracting new users. Language designers need to consider factors such as readability, simplicity, and consistency when designing the language.
+
+#### Adoption
+
+Getting programmers to adopt a new programming language can be challenging. There is often a significant investment in learning and using a language, and it can be difficult to persuade programmers to switch to a new language. Language designers need to create a language that is compelling enough to persuade programmers to switch.
+
+#### Maintenance
+
+Once a programming language is created, it needs to be maintained and updated over time. This can require a significant investment in resources and can be a challenge for smaller language communities.
+
+One example of language design and implementation is the development of the Rust programming language. Rust was designed with the goal of being a safe and performant systems programming language. The language was designed to provide low-level control over system resources while also providing high-level abstractions that make it easier to write safe and correct code. Rust has a unique ownership system that ensures memory safety and prevents common programming errors such as null pointer dereferencing. The language was implemented using a compiler that translates Rust code into efficient machine code. Rust has gained popularity in recent years and is used in a wide range of applications, including web development, systems programming, and game development.
+
+By understanding the process of language design and implementation, programmers can gain a deeper appreciation for the nuances and complexities of programming languages. They can also gain insight into the tradeoffs and challenges involved in designing and implementing programming languages, which can help them make better decisions when choosing a language for a particular task.
+
+<div style="page-break-after: always;"></div>
+
+### Conclusion
+
+In this chapter, we have explored the theory of programming languages and why it is important for software engineers to understand it. We have discussed the evolution of programming languages, the different categories of programming languages, and the various language features and paradigms. We have also discussed the process of language design and implementation and the challenges and tradeoffs involved in creating programming languages.
+
+Understanding the theory of programming languages is essential for software engineers of all levels of experience. By understanding the underlying principles and techniques of programming languages, engineers can make better decisions when choosing a language for a particular task. They can also write more efficient, effective, and maintainable code.
+
+To continue learning about the theory of programming languages, there are several resources available. Online courses and tutorials can provide a comprehensive overview of programming language concepts and principles. Reading academic papers and books on programming languages can also provide deeper insights into the theory of programming languages.
+
+In conclusion, understanding the theory of programming languages is a critical skill for software engineers. By understanding the different categories of programming languages, language features, and paradigms, and the process of language design and implementation, engineers can become more effective at choosing the right language for the task at hand and creating efficient, effective, and maintainable code.
+<div style="page-break-after: always;"></div>
+Here are some resources for further learning about the theory of programming languages:
+
+1.  "Programming Languages, Part A" on Coursera - This online course from the University of Washington provides an in-depth overview of programming language concepts and principles.
+    
+2.  "The Design of Everyday Programs" by Matthias Felleisen - This book provides a comprehensive introduction to programming language design and implementation.
+    
+3.  "Essentials of Programming Languages" by Daniel P. Friedman and Mitchell Wand - This book provides a comprehensive introduction to programming language concepts and principles.
+    
+4.  "Programming Language Pragmatics" by Michael L. Scott - This book provides a comprehensive overview of programming language concepts and principles, with a focus on practical applications.
+    
+5.  "The Art of Computer Programming" by Donald E. Knuth - This classic book provides a comprehensive overview of computer programming concepts and principles.
+    
+6.  "Structure and Interpretation of Computer Programs" by Harold Abelson and Gerald Jay Sussman - This book provides a comprehensive introduction to programming language concepts and principles, with a focus on the Scheme programming language.
+    
+7.  "Concepts, Techniques, and Models of Computer Programming" by Peter Van Roy and Seif Haridi - This book provides a comprehensive overview of programming language concepts and principles, with a focus on the Oz programming language.
+    
+8.  "Types and Programming Languages" by Benjamin C. Pierce - This book provides a comprehensive overview of programming language type systems.
+    
+9.  "Programming Language Foundations" on edX - This online course from the University of Washington provides an in-depth introduction to programming language concepts and principles.
+    
+10.  "Principles of Programming Languages" on Udacity - This online course provides an introduction to programming language concepts and principles, with a focus on functional programming.
+
+<div style="page-break-after: always;"></div>
+
+## Hello World
+
+In this chapter, you will write a "Hello, World!" program. This simple program is often the first thing that programmers learn to write in a new language, and for good reason: it's a quick and easy way to test that your development environment is set up correctly, and it gives you a sense of accomplishment as you start your journey to learning a new programming language.
+
+The specific details on how to do this will depend on your development environment. There is no one size fits all when it comes to development environments. You may choose to set up your environment on your local machine, and the details will depend on your operating system and favorite code editor. Or you may choose to use a cloud based service like AWS Cloud 9.
+
+Running a program on your local machine provides full control and customization of the development environment, as well as potentially faster performance and reduced latency. It also does not require reliance on an internet connection or external service, and provides easier access to local resources such as files and databases. However, setting up and maintaining the development environment can be time-consuming, and there may be compatibility issues with different operating systems and hardware configurations. Additionally, collaboration with others in real-time may be more difficult.
+
+Using a cloud-based service like AWS Cloud9 offers quick and easy setup of a development environment, easy collaboration with others in real-time, and access to powerful cloud-based resources and services. It also provides a consistent environment across multiple devices and locations. However, there is a dependency on an internet connection and external service, and potential latency and slower performance compared to a local machine. Additionally, the development environment may be less customizable, and there may be potential security and privacy concerns when working with sensitive data.
+
+For this initial program, you want to remember to keep it simple. You want to run a simple program in the development environment that you are most comfortable with. Try to avoid rabbit holes like researching all of the best VSCode plugins. This can be optimized later after you have some experience writing code with the language.
+
+This should be your focus:
+- Choose the development environment that works for you
+- Install the programming language in your development environment
+- Run a simple "Hello World!" program
+
+{
+TODO: 
+ChatGPT prompt here for specific instructions on your environment
+https://chat.openai.com/c/cbf63450-246b-4906-a34d-8f1120f0682a
+Can you write a detailed how to guide that explains everything I need to do to install {programming language} on {development environment} and run a simple hello world program? Please detail exactly where to go for any downloads
+}
+
+
+The program you create should do the following:
+- print "Hello World!"
+<div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;"></div>
+
+## Algorithm Problems
+
+Algorithm problems are a great way to learn a new programming language, as they allow you to practice using the language's syntax and features in a structured and challenging way.
+
+This chapter provides a curated list of algorithm problems to use a combination of data structures. You will gain hands-on experience with the programming language you're learning and build your confidence and proficiency with the language's syntax, features, and data structures.
+
+{#TODO
+Describe the curated problems
+  - from the list of 75 top algorithm problems
+  - data structures and concepts covered
+  - structure for each problem
+  - how to get fast feedback from leetcode
+}
+
+Learning how to solve algorithm problems is a skill set of its own, especially if you are preparing for interviews. Because the focus is on learning a new programming language, pseudo code solutions are provided for each problem. This is to allow you to spend more of your time focusing on syntax and data structures and less time on problem solving.
+
+{#TODO
+  Plug algomonster as the best place to learn how to solve programming problems for tech interviews
+}
+
+As you continue to learn more languages, 
+
+[LeetCode](https://leetcode.com/) is an online platform that offers a collection of coding challenges designed to help programmers improve their problem-solving skills and prepare for technical interviews. The LeetCode platform includes a wide range of problems, from basic data structures and algorithms to advanced programming topics such as machine learning and computer vision.
+
+Each problem on LeetCode is accompanied by a set of test cases that a programmer's code must pass in order to be considered correct. The platform also offers solutions and explanations for each problem, as well as a discussion forum where users can ask and answer questions related to the problems.
+
+<div style="page-break-after: always;"></div>
+
+### Two Sum
+
+LeetCode Difficulty: **Easy**
+[LeetCode Link](https://leetcode.com/problems/valid-anagram/)
+
+#### Problem
+
+*Given an array of integers and an integer target, return indices of the two numbers such that they add up to target.*
+
+*You may assume that each input would have exactly one solution, and you may not use the same element twice.*
+
+*You can return the answer in any order.*
+
+```
+Input: [1,4,2,5], 7
+Output: [2,3]
+```
+
+**Psuedo Code Solution**
+
+1. Create a function called find_two_sum_indices that takes an array of integers and a target integer as inputs.
+
+2. Initialize an empty dictionary called index_map.
+   
+3. Loop through the array with index and value, do the following for each element:
+   a. Calculate the difference between the target and the current value, call it required_value.
+   b. Check if required_value is in the index_map dictionary:
+      i. If it is, return the index stored in index_map for required_value and the current index.
+   c. If required_value is not in the index_map, store the current value as a key and its index as a value in the index_map.
+
+4. If the loop finishes without finding a solution, return a message indicating that there is no solution.
+
+<div style="page-break-after: always;"></div>
+
+## Valid Anagram
+
+
+LeetCode Difficulty: **Easy**
+[LeetCode Link](https://www.notion.so/frankdelpidio/Array-40a6f920e75a454f8fb4e03c34dcb019?pvs=4)
+
+#### Problem
+
+*Given two strings s and t, return true if t is an anagram of s, and false otherwise.*
+
+*An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.*
+
+```
+Input: s = "anagram", t = "nagaram"
+Output: True
+
+Input: s = "anagram", t = "hotdogs"
+Output: False
+```
+
+**Psuedo Code Solution**
+
+1.  Create a function called is_anagram that takes two strings, s and t, as inputs.
+2.  Check if the lengths of s and t are equal: a. If they are not equal, return false because they cannot be anagrams.
+3.  Initialize an empty dictionary called letter_count.
+4.  Loop through each character in string s, do the following: a. If the character is in letter_count, increment its value by 1. b. If the character is not in letter_count, add it to the dictionary with a value of 1.
+5.  Loop through each character in string t, do the following: a. If the character is not in letter_count, return false because it is not an anagram. b. If the character is in letter_count, decrement its value by 1. c. If the value of the character in letter_count becomes 0, remove the character from the dictionary.
+6.  If the dictionary letter_count is empty after the loops, return true because t is an anagram of s.
+7.  If the dictionary letter_count is not empty, return false because t is not an anagram of s.
+
