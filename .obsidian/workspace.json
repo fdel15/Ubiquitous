@@ -32,19 +32,29 @@
             }
           },
           {
-            "id": "b2675409b30d605e",
+            "id": "012a62f165c11375",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screen Shot 2023-06-22 at 8.14.35 AM.png"
+              }
+            }
+          },
+          {
+            "id": "a98baa7fa31a98fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/First Draft.md",
+                "file": "Projects/Framework for learning a new programming language/mermaid_diagram_vs_code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 387.5
   },
   "right": {
     "id": "c735741c89979b6e",
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/First Draft.md",
+                "file": "Projects/Framework for learning a new programming language/mermaid_diagram_vs_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/First Draft.md",
+                "file": "Projects/Framework for learning a new programming language/mermaid_diagram_vs_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Framework for learning a new programming language/First Draft.md"
+                "file": "Projects/Framework for learning a new programming language/mermaid_diagram_vs_code.md"
               }
             }
           },
@@ -167,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,38 +191,49 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b2675409b30d605e",
+  "active": "f326f27af3e3e840",
   "lastOpenFiles": [
-    "Projects/Framework for learning a new programming language/code-stock-photo.jpg",
-    "Projects/Framework for learning a new programming language/code-stock-photo.jpg.crdownload",
-    "Projects/Framework for learning a new programming language/Paradigms.md",
-    "().md",
+    "hi_frank.txt",
     "Projects/Framework for learning a new programming language/First Draft.md",
-    "Projects/Framework for learning a new programming language/Theory of Programming Languages.md",
-    "Projects/Framework for learning a new programming language/Task List.md",
-    "Projects/Framework for learning a new programming language/Programming Projects.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/frank.mermaid",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/maximum_depth_of_binary_tree.mermaid",
+    "Screen Shot 2023-06-22 at 8.14.35 AM.png",
+    "Screen Shot 2023-06-22 at 8.18.54 AM.png.md",
+    "Projects/Framework for learning a new programming language/Chat GPT Prompts.md",
+    "Projects/Framework for learning a new programming language/Outline.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/valid_parenthese.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/maximum_subarray.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/images/valid_parentheses.png",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/images/maximum_subarray.png",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/images",
+    "Projects/Framework for learning a new programming language/Untitled",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/two_sum.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/valid_anagram.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/reverse_linked_list.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams/climbing_stairs.mermaid.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagrams",
+    "Screen Shot 2023-06-22 at 8.18.54 AM.png",
+    "Books/Staff Engineer by Will Larson/Design Document.md",
+    "Books/Staff Engineer by Will Larson/Technical Quality.md",
+    "Projects/Framework for learning a new programming language/mermaid_diagram_vs_code.md",
     "Projects/Framework for learning a new programming language/Language Overview Table.md",
     "Projects/Framework for learning a new programming language/Javascript Syntax and Grammar.md",
     "Projects/Framework for learning a new programming language/Introduction.md",
     "Projects/Framework for learning a new programming language/Initial Brain Storm.md",
     "Projects/Framework for learning a new programming language/Chat GPT recommendations for programs to create.md",
-    "Projects/Framework for learning a new programming language/Chat GPT Prompts.md",
     "Projects/Framework for learning a new programming language/Brain storming.md",
-    "Projects/Framework for learning a new programming language/Outline.md",
-    "Projects/Daily Notes/2023/2023-04-19.md",
-    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Syntax and Grammar.md",
-    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Strengths and Weaknessess.md",
-    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Installation.md",
-    "Projects/Framework for learning a new programming language/Programming Languages/Ruby/Ruby Implementation.md",
+    "Projects/Daily Notes/2023/2023-06-19.md",
+    "Books/Staff Engineer by Will Larson/Present to Executives.md",
+    "Books/Staff Engineer by Will Larson/Untitled",
+    "Books/Staff Engineer by Will Larson",
+    "Projects/Daily Notes/2023/2023-06-04.md",
+    "Projects/Framework for learning a new programming language/code-stock-photo.jpg",
+    "Projects/Framework for learning a new programming language/code-stock-photo.jpg.crdownload",
+    "Projects/Framework for learning a new programming language/Paradigms.md",
+    "().md",
+    "Projects/Framework for learning a new programming language/Theory of Programming Languages.md",
     "Projects/Framework for learning a new programming language/Programming Languages/Ruby",
     "Projects/Framework for learning a new programming language/Programming Languages",
-    "Projects/Framework for learning a new programming language/Existing Products.md",
-    "Projects/Daily Notes/2023/2023-04-23.md",
-    "Projects/Framework for learning a new programming language",
-    "Projects/Daily Notes/2023/2023-04-09.md",
-    "Projects/Daily Notes/2023/2023-03-31.md",
-    "Pauli Exclusion Principal.md",
-    "Build my own Poker.canvas",
-    "Books/Physics Of The Future.md"
+    "Build my own Poker.canvas"
   ]
 }

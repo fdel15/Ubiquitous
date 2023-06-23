@@ -1,5 +1,5 @@
 
-<h1 style="text-align:center">A Framework For Learning Programming Languages</h1>
+<h1 style="text-align:center">Learning Programming Languages Framework</h1>
 
 
 
@@ -350,7 +350,7 @@ In this chapter, you will write a "Hello, World!" program. This simple program i
 
 The specific details on how to do this will depend on your development environment. There is no one size fits all when it comes to development environments. You may choose to set up your environment on your local machine, and the details will depend on your operating system and favorite code editor. Or you may choose to use a cloud based service like AWS Cloud 9.
 
-Running a program on your local machine provides full control and customization of the development environment, as well as potentially faster performance and reduced latency. It also does not require reliance on an internet connection or external service, and provides easier access to local resources such as files and databases. However, setting up and maintaining the development environment can be time-consuming, and there may be compatibility issues with different operating systems and hardware configurations. Additionally, collaboration with others in real-time may be more difficult.
+Running a program on your local machine provides full control and customization of the development environment, as well as potentially faster performance and reduced latency. It does not require reliance on an internet connection or external service, and provides easier access to local resources such as files and databases. However, setting up and maintaining the development environment can be time-consuming, and there may be compatibility issues with different operating systems and hardware configurations. Additionally, collaboration with others in real-time may be more difficult.
 
 Using a cloud-based service like AWS Cloud9 offers quick and easy setup of a development environment, easy collaboration with others in real-time, and access to powerful cloud-based resources and services. It also provides a consistent environment across multiple devices and locations. However, there is a dependency on an internet connection and external service, and potential latency and slower performance compared to a local machine. Additionally, the development environment may be less customizable, and there may be potential security and privacy concerns when working with sensitive data.
 
@@ -416,24 +416,86 @@ LeetCode Difficulty: **Easy**
 
 *You can return the answer in any order.*
 
+**Example**
+
 ```
 Input: [1,4,2,5], 7
 Output: [2,3]
 ```
 
-**Psuedo Code Solution**
+**Pseudocode Solution**
 
-1. Create a function called find_two_sum_indices that takes an array of integers and a target integer as inputs.
+1. Create a function called that takes an array of integers and a target integer as inputs.
 
-2. Initialize an empty dictionary called index_map.
+2. Initialize an empty hash table.
    
-3. Loop through the array with index and value, do the following for each element:
+3. Loop through the input array with index and value and do the following for each element:
    a. Calculate the difference between the target and the current value, call it required_value.
-   b. Check if required_value is in the index_map dictionary:
-      i. If it is, return the index stored in index_map for required_value and the current index.
-   c. If required_value is not in the index_map, store the current value as a key and its index as a value in the index_map.
+   b. Check if required_value is in the hash table:
+      i. If it is, return the index stored in the hash table for required_value and the current index.
+   c. If required_value is not in the hash table, store the current value as a key and its index as a value in the hash table.
 
 4. If the loop finishes without finding a solution, return a message indicating that there is no solution.
+
+
+
+```mermaid
+
+flowchart TD
+
+A(ARRAY, TARGET)
+
+B["Index = 0
+
+Hash table is empty"]
+
+C["VALUE = ARRAY[Index]"]
+
+D["Is (TARGET - VALUE) a key in the hash table?"]
+
+I{No}
+
+J{Yes}
+
+E["Add to Hash table
+
+Hash[VALUE] = Index"]
+
+F[Index += 1]
+
+G["Retrieve Other Index from Hash table,
+
+Other Index = Hash[TARGET - VALUE]"]
+
+H["Return [Index, Other Index]"]
+
+  
+  
+
+A --> B
+
+B --> C
+
+C --> D
+
+D --> I
+
+I --> E
+
+E --> F
+
+F --> C
+
+D --> J
+
+J --> G
+
+G --> H
+
+  
+
+```
+
 
 <div style="page-break-after: always;"></div>
 
@@ -449,6 +511,8 @@ LeetCode Difficulty: **Easy**
 
 *An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.*
 
+**Example**
+
 ```
 Input: s = "anagram", t = "nagaram"
 Output: True
@@ -457,13 +521,533 @@ Input: s = "anagram", t = "hotdogs"
 Output: False
 ```
 
-**Psuedo Code Solution**
+**Pseudocode Solution**
 
-1.  Create a function called is_anagram that takes two strings, s and t, as inputs.
-2.  Check if the lengths of s and t are equal: a. If they are not equal, return false because they cannot be anagrams.
+1.  Create a function that takes two strings, s and t, as inputs.
+2.  Check if the lengths of s and t are equal: 
+		a. If they are not equal, return false because they cannot be anagrams.
 3.  Initialize an empty dictionary called letter_count.
 4.  Loop through each character in string s, do the following: a. If the character is in letter_count, increment its value by 1. b. If the character is not in letter_count, add it to the dictionary with a value of 1.
 5.  Loop through each character in string t, do the following: a. If the character is not in letter_count, return false because it is not an anagram. b. If the character is in letter_count, decrement its value by 1. c. If the value of the character in letter_count becomes 0, remove the character from the dictionary.
 6.  If the dictionary letter_count is empty after the loops, return true because t is an anagram of s.
 7.  If the dictionary letter_count is not empty, return false because t is not an anagram of s.
 
+```mermaid
+
+flowchart TD
+
+  
+
+A(S, T)
+
+B(Length of S == Length of T?)
+
+C{NO}
+
+D{YES}
+
+E[Return False]
+
+F[Create Empty Hash table]
+
+G("For every character s in S
+
+Hash[s] = 1 OR Hash[s] + 1")
+
+H["t = first character in T"]
+
+I["Does Hash[t] exist?"]
+
+J{NO}
+
+E2[Return False]
+
+K{YES}
+
+L["Hash[t] = Hash[t] - 1"]
+
+M["Hash[t] == 0?"]
+
+N{NO}
+
+O{YES}
+
+P[Remove t from Hash table]
+
+Q[Does t exist?]
+
+R{YES}
+
+S{NO}
+
+T[t = next character in T]
+
+U[Is Hash table empty?]
+
+V{NO}
+
+W{YES}
+
+E3[Return False]
+
+X[Return True]
+
+  
+
+A --> B
+
+B --> C
+
+B --> D
+
+C --> E
+
+D --> F
+
+F --> G
+
+G --> H
+
+H --> I
+
+I --> K
+
+I --> J
+
+J --> E2
+
+K --> L
+
+L --> M
+
+M --> N
+
+M --> O
+
+O --> P
+
+P --> T
+
+N --> T
+T --> Q
+
+Q --> R
+
+Q --> S
+
+R --> I
+
+S --> U
+
+U --> V
+
+U --> W
+
+V --> E3
+
+W --> X
+
+```
+
+<div style="page-break-after: always;"></div>
+
+## Reverse Linked List
+
+
+LeetCode Difficulty: **Easy**
+[LeetCode Link](https://leetcode.com/problems/reverse-linked-list/)
+
+#### Problem
+
+	Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+**Example**
+
+```
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+```
+
+**Pseudocode Solution**
+
+1. Define Node pointer "previous" and initialize it to null
+2. Define Node pointer "current" and set it to the head of the list
+3. Define Node pointer "next"
+4. Loop "while current node is not null":
+5.     Set "next" to be the next node of "current"
+6.     Change the next of the "current" node to point to the "previous"
+7.     Move the "previous" and "current" pointers one step forward: 
+	    - Set "previous" to be "current"
+	    - Set "current" to be "next"
+8. End loop
+9. At the end of the list, "previous" will be pointing to the new head (or the last node of the original list). So, return "previous" as the head of the reversed list.
+
+
+`Curr` = 1
+`Prev` = Null
+`Next` = 2
+
+```mermaid
+
+graph LR
+
+A[1]
+
+B[2]
+
+C[3]
+
+D[4]
+
+E[5]
+
+A --> B --> C --> D --> E
+
+```
+---
+
+`Curr` = 2
+`Prev` = 1
+`Next` = 3
+
+```mermaid
+
+graph LR
+
+A[1]
+
+B[2]
+
+C[3]
+
+D[4]
+
+E[5]
+
+B --> A
+
+C --> D --> E
+
+```
+---
+`Curr` = 3
+`Prev` = 2
+`Next` = 4
+
+```mermaid
+
+graph LR
+
+A[1]
+
+B[2]
+
+C[3]
+
+D[4]
+
+E[5]
+
+C --> B --> A
+
+D --> E
+
+```
+---
+`Curr` = 4
+`Prev` = 3
+`Next` = 5
+
+```mermaid
+
+graph LR
+
+A[1]
+
+B[2]
+
+C[3]
+
+D[4]
+
+E[5]
+
+D --> C --> B --> A
+
+E
+
+```
+---
+`Curr` = 5
+`Prev` = 4
+`Next` = Null
+
+```mermaid
+
+graph LR
+
+A[1]
+
+B[2]
+
+C[3]
+
+D[4]
+
+E[5]
+
+  
+
+E --> D --> C --> B --> A
+
+```
+---
+`Curr` = Null
+`Prev` = 5
+`Next` = Null
+
+<div style="page-break-after: always;"></div>
+
+
+## Climbing Stairs
+
+LeetCode Difficulty: **Easy**
+[LeetCode Link](https://leetcode.com/problems/climbing-stairs/)
+
+#### Problem
+
+*You are climbing a staircase. It takes `n` steps to reach the top.*
+
+*Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?*
+
+**Example**
+
+```
+Input: n = 2
+Output: 2
+
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+```
+
+**Pseudocode Solution**
+1. Define the function `CountWaysToClimb(n)` where `n` is the number of steps.
+2. If `n` is 0, return 0.
+3. If `n` is 1, return 1.
+4. If `n` is 2, return 2.
+5. Create an array, `ways`, of size `n+1` with each entry initialized to 0.
+6. Set `ways[0]` to 1, this is because there is 1 way to climb 0 steps.
+7. Set `ways[1]` to 1, this is because there is 1 way to climb 1 step.
+8. Set `ways[2]` to 2, this is because there are 2 ways to climb 2 steps.
+9. For each integer `i` from 3 to `n`:
+    - Set `ways[i]` to `ways[i-1] + ways[i-2]`. 
+	    - This is because the number of ways to get to step `i` is the sum of the number of ways to get to the previous step and the step before that.
+10. Return `ways[n]` which is the number of distinct ways to climb `n` steps.
+11. End of the function `CountWaysToClimb(n)`.
+
+```mermaid
+
+graph TD
+
+N[N = Number of Steps]
+
+N0[N = 0?]
+
+N1[N = 1?]
+
+N2[N = 2?]
+
+R0[Return 0]
+
+R1[Return 1]
+
+R2[Return 2]
+
+DP{{" i = 3"}}
+
+NS["Ways[i] = Ways[i - 1] + Ways[i - 2]"]
+
+II[i += 1]
+
+X[i > N?]
+
+NO{NO}
+
+YES{YES}
+
+RES["Return Ways[N]"]
+
+  
+
+subgraph WA[Ways Array]
+
+direction LR
+
+0["[1, 1, 2]"]
+
+end
+
+  
+  
+
+N --> N0
+
+N --> N1
+
+N --> N2
+
+N0 --> R0
+
+N1 --> R1
+
+N2 --> R2
+
+N --> WA
+
+WA --> DP
+
+DP --> NS
+
+NS --> II
+
+II --> X
+
+X --> NO
+
+X --> YES
+
+NO --> NS
+
+YES --> RES
+
+```
+
+
+<div style="page-break-after: always;"></div>
+## Valid Parentheses
+
+LeetCode Difficulty: **Easy**
+[LeetCode Link](https://leetcode.com/problems/valid-parentheses/)
+
+#### Problem
+
+*Given a string s containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.*
+
+*An input string is valid if:*
+
+*Open brackets must be closed by the same type of brackets.*
+*Open brackets must be closed in the correct order.*
+*Every close bracket has a corresponding open bracket of the same type.*
+
+**Example**
+
+```
+Input: s = "()[]{}"
+Output: true
+
+Input: s = "(]"
+Output: false
+```
+
+**Pseudocode Solution**
+
+1. `Create` an empty stack, call it `bracketStack`.
+2. `Define` a dictionary `brackets` where each key is a closed bracket and each value is its corresponding opening bracket. 
+	- `'}': '{'` 
+	- `')': '('` 
+	- `']': '['`.
+
+3. `For` each character `c` in the input string `s`, `do` the following:
+    - `If` `c` is an opening bracket (i.e., `c` is in the values of `brackets`), `then`:
+        - `Push` `c` onto `bracketStack`.
+    -  `Else If` `c` is a closing bracket (i.e., `c` is in the keys of `brackets`), `then`:
+	- `If` `bracketStack` is empty `or` the top of the `bracketStack` is not equal to the opening bracket corresponding to `c` (i.e., `brackets[c]`), `then`:
+		- `Return` false.
+	- `Else`:
+		- `Pop` the top element from `bracketStack`.
+
+4. `After` iterating through the string:
+	- `If` `bracketStack` is empty, `then`
+		- `Return` true.
+	- `Else`
+		- `Return` false.
+
+![[valid_parentheses.png]]
+
+
+<div style="page-break-after: always;"></div>
+
+## Maximum Subarray
+
+LeetCode Difficulty: **Medium**
+[LeetCode Link](https://leetcode.com/problems/maximum-subarray/)
+
+#### Problem
+
+*Given an integer array `nums`, find the subarray with the largest sum, and return its sum.*
+
+**Example**
+
+```
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+```
+
+```
+Input: nums = [1]
+Output: 1
+Explanation: The subarray [1] has the largest sum 1.
+```
+
+```
+Input: nums = [5,4,-1,7,8]
+Output: 23
+Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
+```
+
+**Pseudocode Solution**
+
+1.  Initialize a variable `currentSum` to 0. This variable will keep track of the sum of the current subarray.
+2.  Initialize a variable `maxSum` to negative infinity. This variable will keep track of the maximum sum found so far.
+3.  Start a loop to traverse over each element in the array `nums`.
+    1.  For each element `nums[i]` do the following:
+        1.  Update `currentSum` to the maximum of (`currentSum` + `nums[i]`) and `nums[i]`.
+        2.  Update `maxSum` to the maximum of `maxSum` and `currentSum`.
+4.  After the loop ends, `maxSum` will hold the maximum subarray sum, so return `maxSum`.
+
+![[maximum_subarray.png]]
+
+
+<div style="page-break-after: always;"></div>
+## Maximum Depth Of A Binary Tree
+
+LeetCode Difficulty: **Medium**
+[LeetCode Link](https://leetcode.com/problems/maximum-subarray/)
+
+#### Problem
+
+*Given the `root` of a binary tree, return its maximum depth.*
+
+*A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.*
+
+**Example**
+
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: 3
+```
+
+```
+Input: root = [1,null,2]
+Output: 2
+```
+
+**Pseudocode Solution**
+
+1.  Define a function `maxDepth` that takes a binary tree root node as its input.
+2.  Inside `maxDepth`, first check if the root node is `null`. If it is, return 0. This step is your base case and it takes care of empty trees or when you've traversed to a non-existing child of a leaf node.
+3. If the root is not `null`, recursively call `maxDepth` for the left and right child nodes of the root.
+4. Since we need to find the maximum depth, compare the depth of the left subtree and the right subtree. Choose the larger one and add 1 to it (which accounts for the root of the current tree/subtree). This is the depth of the tree rooted at the current node.
+5. Return `currentMaxDepth` from the `maxDepth` function.

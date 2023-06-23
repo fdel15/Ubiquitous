@@ -8,13 +8,13 @@
 	- Run simple "Hello World" program
 - Learn the syntax
 	- bitwise_addition
-	- reverse_linked_list
-	- climbing_stairs
-	- two_sum
+	- ~~reverse_linked_list
+	- ~~climbing_stairs
+	- ~~two_sum
 	- max_depth_of_binary_tree
-	- valid_anagram
-	- maximum_subarray
-	- valid_parentheses
+	- ~~valid_anagram
+	- ~~maximum_subarray
+	- ~~valid_parentheses
 	- number_of_islands
 - Simple Projects
 	- Input/Output
